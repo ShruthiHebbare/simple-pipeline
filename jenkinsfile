@@ -12,7 +12,7 @@ pipeline {
         }
         stage('Test the Package') {
             steps {
-                // Testing the package using Maven Test
+                // Testing the packages using Maven Test
                 sh 'mvn test'
             }
         }
